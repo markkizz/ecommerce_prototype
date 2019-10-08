@@ -135,7 +135,10 @@ section .quote {
 }
 
 /* item  */
-
+.svg {
+    background-image: url('/img/cw-abstract-lg.svg');
+    background-repeat: no-repeat;
+}
 .text-item {
     margin-top: 35px;
     font-family: 'Playfair Display', serif;
