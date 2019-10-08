@@ -86,7 +86,7 @@ header {
 .brandner {
     width: 100%;
     height: 650px;
-    background-image: url("/img/jacket-1570454267065-3748.jpg");
+    background-image: url("img/jacket-1570454267065-3748.jpg");
     background-position-y: -10px;
     color: white;
     font-size: 200px;
@@ -99,6 +99,7 @@ header {
     position: absolute;
     top: 230px;
     left: 250px;
+    cursor: default;
 }
 
 /* quote */
@@ -136,7 +137,7 @@ section .quote {
 
 /* item  */
 .svg {
-    background-image: url('/img/cw-abstract-lg.svg');
+    background-image: url('img/cw-abstract-lg.svg');
     background-repeat: no-repeat;
 }
 .text-item {
@@ -149,7 +150,6 @@ section .quote {
 .container .item {
     display: flex;
     justify-content: center;
-
 }
 
 .item .item-box {
@@ -161,6 +161,7 @@ section .quote {
     font-family: 'Roboto Condensed', sans-serif;
     color: #7e7e7e;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .item-box img {
@@ -178,12 +179,63 @@ section .quote {
     margin-top: 6px;
 }
 
-.item-name {
-
-}
-
 .price {
     color: red;
     font-size: 18px;
 }
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+footer .icon {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon .icon-contact {
+    display: inline-block;
+    line-height: 50px;
+    width: 75px;
+    font-size: 22px
+}
+
+.icon-contact #face {
+    width: 30px;
+    height: 30px;
+    background-color: #1E385A;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.icon-contact #mail {
+    width: 30px;
+    height: 30px;
+    background-color: #01762b;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.icon-contact #git {
+    width: 30px;
+    height: 30px;
+    background-color: #6cbdff;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 
