@@ -134,7 +134,53 @@ section .quote {
     cursor: pointer;
 }
 
-/* New collections item */
+/* item  */
 
+.text-item {
+    margin-top: 35px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    color: rgb(34, 34, 34);
+}
 
+.container .item {
+    display: flex;
+    justify-content: center;
+
+}
+
+.item .item-box {
+    width: 255px;
+    height: 340px;
+    background-color: white !important;
+    margin: 35px 50px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #7e7e7e;
+    cursor: pointer;
+}
+
+.item-box img {
+    width: 178px;
+    height: 240px;
+    margin-top: 10px;
+}
+
+.description {
+    text-align: left;
+    margin: 10px 0 0 20px;
+}
+
+.description p {
+    margin-top: 6px;
+}
+
+.item-name {
+
+}
+
+.price {
+    color: red;
+    font-size: 18px;
+}
 
